@@ -15,12 +15,13 @@ $ heroku buildpacks:add heroku/nodejs
 ## Configure Config Var
 Add the NPMRC config var in Heroku with the contents of your .npmrc file.
 
-Environment variable Name:
+Name:
 ```
 NPMRC
 ```
-Environment variable Value: 
+Example value:
 ```
 @offerzen:registry=https://npm.pkg.github.com
 //npm.pkg.github.com/:_authToken=<secret auth token>
 ```
+See [this slab post](https://offerzen.slab.com/posts/using-offer-zen-packages-dj3z0hkh#hdp3t-heroku) for more details.
